@@ -49,5 +49,32 @@ doing the loop again
 if under 18 - also sent to the person the user trusts, according to the questionnaire the user filled out.
 
 
+### Application Screens
+#### Splash Screen
+<img src="https://github.com/eynavbe/BullyGuardHackathon/assets/93534494/a3bb3675-8ab6-4039-9293-e45afad43100"  width="200" >
+
+#### Registration
+<img src="https://github.com/eynavbe/BullyGuardHackathon/assets/93534494/16e49d21-4c8c-4794-bbf5-233d6d208110"  width="200" >
+<img src="https://github.com/eynavbe/BullyGuardHackathon/assets/93534494/38e2d5c4-d0ea-43fa-9048-a9464dfab761"  width="200" >
+
+#### Questionnaire
+<img src="https://github.com/eynavbe/BullyGuardHackathon/assets/93534494/86cc6203-678d-44b3-b6ca-8eefbfc9e513"  width="200" >
+
+#### Recordings
+<img src="https://github.com/eynavbe/BullyGuardHackathon/assets/93534494/157a7468-b80b-41e3-9ba3-c1b10836d090"  width="200" >
+
+#### ChatGPT
+<img src="https://github.com/eynavbe/BullyGuardHackathon/assets/93534494/e22faf63-bd28-4ca5-8614-3b1c1363cb30"  width="200" >
+
+
+
+
+
+### Application Video
+
+
+https://github.com/eynavbe/BullyGuardHackathon/assets/93534494/64836fbd-d310-4b20-afa8-ee0981f61923
+
+
 
 
