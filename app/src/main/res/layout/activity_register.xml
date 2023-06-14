@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ActivityRegister">
+
+<TextView
+    android:id="@+id/idManagRgtrHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    android:text="הרשמה"
+    android:textAlignment="center"
+    android:textColor="@color/teal_200"
+    android:textSize="25dp" />
+
+<EditText
+    android:id="@+id/idHallName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/idManagRgtrHeader"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="10dp"
+    android:hint="שם מלא"
+    android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etDateEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idHallName"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white"
+        android:hint="בחר תאריך לידה..."
+        android:padding="8dp"
+        />
+
+
+<!--edit text for user name-->
+
+
+    <EditText
+        android:id="@+id/idManagMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDateEvent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="מייל"
+        android:inputType="text" />
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="10dp"
+    android:id="@+id/passwordManagTil"
+    android:layout_below="@id/idManagMail"
+    app:passwordToggleEnabled="true">
+    <!--edit text for user password-->
+    <EditText
+        android:id="@+id/idManagPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="סיסמא"
+        android:inputType="textPassword"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+<!--button to register our new user-->
+<Button
+    android:id="@+id/idBtnManagRegister"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/passwordManagTil"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:text="להמשך ההרשמה"
+    android:backgroundTint="@color/teal_200"/>
+
+
+<TextView
+    android:id="@+id/idTxtSignupManag"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/idBtnManagRegister"
+    android:layout_marginTop="8dp"
+    android:text="Have an account?"
+    android:textAlignment="center"
+    android:textSize="15dp" />
+
+<TextView
+    android:id="@+id/idClicktxtSignupManag"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/idTxtSignupManag"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:clickable="true"
+    android:text="Click here"
+    android:textAlignment="center"
+    android:textSize="15dp" />
+
+</RelativeLayout>

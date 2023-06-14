@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".RegisterContinuedActivity">
+
+<TextView
+    android:id="@+id/idManagRgtrHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:gravity="center_horizontal"
+    android:padding="5dp"
+    android:text="המשך מילוי פרטים"
+    android:textAlignment="center"
+    android:textColor="@color/teal_200"
+    android:textSize="20dp" />
+
+
+
+<EditText
+    android:id="@+id/idAreaHall"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/idManagRgtrHeader"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="5dp"
+    android:textSize="12sp"
+    android:hint="מקום בית"
+    android:inputType="textEmailAddress" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="12sp"
+
+        android:id="@+id/passwordManagTil"
+        android:layout_below="@id/idAreaHall">
+        <!--edit text for user password-->
+        <EditText
+            android:id="@+id/idManagPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:hint="איש קשר"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <EditText
+        android:id="@+id/idAreaHall2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordManagTil"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="12sp"
+        android:hint="מקום בית הספר"
+        android:inputType="textEmailAddress" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="12sp"
+
+        android:id="@+id/passwordManagTil2"
+        android:layout_below="@id/idAreaHall2">
+        <!--edit text for user password-->
+        <EditText
+            android:id="@+id/idManagPassword2"
+            android:layout_width="match_parent"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"
+            android:hint="איש קשר"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <EditText
+        android:id="@+id/idAreaHall3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordManagTil2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="12sp"
+        android:hint="מקום עבודה"
+        android:inputType="textEmailAddress" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="12sp"
+
+        android:id="@+id/passwordManagTil3"
+        android:layout_below="@id/idAreaHall3">
+        <!--edit text for user password-->
+        <EditText
+            android:id="@+id/idManagPassword3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:hint="איש קשר"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/idAreaHall4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordManagTil3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="12sp"
+        android:hint="מקום שירות צבאי/לאומי"
+        android:inputType="textEmailAddress" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="12sp"
+        android:id="@+id/passwordManagTil4"
+        android:layout_below="@id/idAreaHall4">
+        <!--edit text for user password-->
+        <EditText
+            android:id="@+id/idManagPassword4"
+            android:layout_width="match_parent"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"
+            android:hint="איש קשר"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="12sp"
+
+        android:layout_below="@id/passwordManagTil4"
+        android:id="@+id/passwordManagTil5">
+                <!--edit text for user password-->
+        <EditText
+            android:id="@+id/idManagPassword5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:hint="איש קשר למקרה חירום"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Switch
+        android:id="@+id/simpleSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="האם אתה רוצה לטייב את האפליקציה? "
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@id/passwordManagTil5"
+        android:textOn="On"
+        android:textOff="Off"
+        android:gravity="center"
+        android:textSize="12sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" /><!-- black background color-->
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simpleSwitch"
+        android:layout_centerHorizontal="true"
+
+        android:textSize="10sp"
+        android:text="האפליקציה תלמד שבוע ותפעל רק אחרי שבוע"
+        />
+    <!--button to register our new user-->
+<Button
+    android:id="@+id/idBtnManagRegister2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/text1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dp"
+    android:text="ההרשמה"
+    android:backgroundTint="@color/teal_200"/>
+
+
+
+</RelativeLayout>
